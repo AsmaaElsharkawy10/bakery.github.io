@@ -309,11 +309,15 @@ footer {
     }
 }
 
-@media screen and (min-width:300px) and (max-width:480px) {
+@media screen and (min-width:100px) and (max-width:480px) {
     .imgsContainer {
         height: 170vh !important;
     }
 
+    .imgsContainer::before
+    {
+        display: none;
+    }
     .imgsContainer .leftImg {
         display: none;
     }
@@ -355,3 +359,4 @@ footer {
         border-bottom: solid 1px #ffcc00;
     }
 }
+
