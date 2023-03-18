@@ -81,7 +81,7 @@ nav.scrolled {
 }
 
 .imgsContainer {
-    height: 80vh;
+    height: 60vh;
 }
 
 .imgsContainer .leftImg,
@@ -96,16 +96,16 @@ nav.scrolled {
     content: "";
     right: 50%;
     transform: translateX(50%);
-    top: 5%;
+    top: 6%;
     z-index: -1;
-    width: 21rem;
+    width: 19rem;
     border: 20px solid rgb(250, 238, 223);
-    height: 22rem;
+    height: 19rem;
     background-color: #EAA636;
 }
 
 .imgsContainer .leftImg {
-    top: -12%;
+    top: -21%;
     left: 10%;
 }
 
@@ -213,25 +213,34 @@ footer {
 }
 
 /* media queries */
-@media screen and (min-width:992px) and (max-width:1200px) {
-    .imgsContainer .leftImg {
+@media screen and (min-width:992px) and (max-width:1199px) {
 
+    .imgsContainer .leftImg,
+    .imgsContainer .rightImg {
+
+        width: 13rem;
+    }
+
+    .imgsContainer .leftImg {
         left: 20%;
+        top: -2%;
     }
 
     .imgsContainer .rightImg {
-        top: 19%;
-        right: 20%;
+        left: 49%;
+        top: -2%;
     }
 
 }
 
-@media screen and (min-width:1201px) and (max-width:1400px) {
+
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+
     .imgsContainer .leftImg {
+        left: -5%;
 
-        left: -6%;
     }
-
 }
 
 @media screen and (min-width:767px) and (max-width: 991px) {
@@ -266,22 +275,30 @@ footer {
         top: 2%;
     }
 
-  
+
 }
 
 @media screen and (min-width:481px) and (max-width:767px) {
 
-    .imgsContainer .leftImg,
-    .imgsContainer .rightImg {
-        width: 28vw;
-        top: 2%;
-    }
+
 
     .imgsContainer::before {
-        height: 20rem;
+        display: none;
     }
 
-   
+    .imgsContainer .leftImg {
+        display: none;
+    }
+
+    .imgsContainer .rightImg {
+        width: 90%;
+        text-align: center;
+        top: 0%;
+        left: 3%;
+        height: 400px;
+    }
+
+
 
     .contactLi {
         background-color: rgba(0, 0, 0, 0.5);
@@ -305,7 +322,7 @@ footer {
 }
 
 @media screen and (min-width:100px) and (max-width:480px) {
-   
+
 
     .imgsContainer::before {
         display: none;
@@ -321,7 +338,7 @@ footer {
         left: 1%;
     }
 
-   
+
 
     .tringle {
         left: 33%;
