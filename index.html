@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top w-100 z-3">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand special-font text-baseColor fs-1" href="#">Baker</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <!-- Start ul -->
+                <ul class="navbar-nav  mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#products">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#team">Our Team</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages <i class="fa-solid fa-chevron-down fw-bold"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Our Team</a></li>
+                            <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">404 Page</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#reviews">Clients Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- End ul -->
+                <div class="d-flex align-items-center contactLi">
+                    <i class="fa-solid fa-phone text-baseColor  fs-6 p-3 border border-1 rounded-circle"></i>
+                    <div class="contact  mt-3 ms-3">
+                        <span class="text-baseColor">Call Us</span>
+                        <p class="text-white">+010 96688707</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start Home -->
+    <section id="home" class="home min-vh-100">
+        <div id="carouselExample" class="carousel slide  position-relative">
+            <div class="carousel-inner ">
+                <div class="carousel-item active position-relative  ">
+                    <div
+                        class="img-overlay position-absolute w-100 h-100 bg-black bg-opacity-50 pt-md-4 d-flex align-items-center">
+                        <div class="row col-12  mb-md-5 pb-5">
+                            <div class="caption ps-5 text-white mt-5">
+                                <p class="fw-semibold mt-5 text-right text-baseColor">// THE BEST BAKERY</p>
+                                <h1 class="special-font">We Bake With Passion</h1>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <button
+                                    class=" bg-baseColor border-0  text-white fs-6 fw-semibold px-5  py-3 rounded-pill">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/carousel-1.jpg" class="w-100 vh-100" alt="...">
+
+
+                </div>
+                <div class="carousel-item position-relative">
+                    <div
+                        class="img-overlay position-absolute w-100 h-100 bg-black bg-opacity-50 pt-md-4 d-flex align-items-center">
+
+                        <div class="row col-12  mb-md-5 pb-5">
+                            <div class="caption ps-5 text-white mt-5">
+                                <p class=" fw-semibold mt-5 text-right text-baseColor">// THE BEST BAKERY</p>
+                                <h1 class="special-font">We Bake With Passion</h1>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <button
+                                    class=" bg-baseColor border-0  text-white fs-6 fw-semibold px-5  py-3 rounded-pill">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="images/carousel-2.jpg" class="w-100 vh-100" alt="...">
+
+                </div>
+
+            </div>
+            <div class="tringle bg-white position-absolute  d-flex justify-content-around  px-4 ">
+
+                <button class="carousel-control-prev position-relative mt-3 " type="button"
+                    data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="fa-solid fa-chevron-left text-warning fs-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next position-relative mt-3" type="button"
+                    data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="fa-solid fa-chevron-right text-warning fs-2" aria-hidden="true"></span>
+                    <span class="visually-hidden ">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- Start Home -->
+
+    <!-- Start About -->
+    <section id="about" class="about   mt-5 ">
+        <div class="container h-100">
+            <!-- part-1 of about -->
+            <div class="row gx-5   my-5 py-5 justify-content-center mx-0  h-100 align-items-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 rounded-4 py-4">
+                        <i class="fa-solid fa-certificate text-baseColor fa-4x  my-4  text-center"></i>
+                        <div class="card-body">
+                            <p class="card-text text-center">Years Experience</p>
+                            <p class="text-center fa-2x fw-bold special-font">50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card border-0 rounded-4 py-4 ">
+                        <i class="fa fa-users text-baseColor fa-4x  my-4 text-center"></i>
+                        <div class="card-body">
+                            <p class="card-text text-center">Skilled Professionals</p>
+                            <p class="text-center fa-2x fw-bold special-font">175</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card border-0 rounded-4 py-4 ">
+                        <i class="fa-solid fa-bread-slice text-baseColor fa-4x  my-4 text-center"></i>
+                        <div class="card-body">
+                            <p class="card-text text-center">Total Products</p>
+                            <p class="special-font text-center fa-2x fw-bold">135</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card border-0 rounded-4 py-4 ">
+                        <i class="fa-solid fa-cart-plus text-baseColor fa-4x  my-4 text-center"></i>
+                        <div class="card-body">
+                            <p class="card-text text-center ">Order Everyday</p>
+                            <p class="special-font text-center fa-2x fw-bold">9375</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- part-2 of about -->
+            <div class="row my-5 py-5 h-100 ">
+                <!-- about images -->
+                <div class="col-xl-6 col-lg-12  ">
+                    <div class="imgsContainer  d-flex position-relative ">
+                        <div class="leftImg position-absolute">
+                            <img src="./images/about/about-1.jpg" class="  w-100 h-100 rounded-2">
+                        </div>
+                        <div class="rightImg position-absolute ">
+                            <img src="./images/about/about-2.jpg" class=" w-100 h-100 rounded-2">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- about content -->
+                <div class="col-xl-6 col-lg-12 about-content ">
+                    <p class="fw-semibold text-baseColor">//ABOUT US</p>
+                    <h1 class="my-2 special-font">We Bake Every Item From The Core Of Our Hearts</h1>
+                    <p class="my-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <div class="row my-4">
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa-solid fa-check text-baseColor me-2"></i>
+                            Quality Products
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa-solid fa-check text-baseColor me-2"></i>
+                            Quality Products
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa-solid fa-check text-baseColor me-2"></i>
+                            Quality Products
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa-solid fa-check text-baseColor me-2"></i>
+                            Quality Products
+                        </div>
+                    </div>
+                    <button class=" bg-baseColor border-0  text-white fs-6 fw-semibold px-5  py-3 rounded-pill">Read
+                        More</button>
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- Start products -->
+    <section id="products" class="products pb-5 mb-5">
+
+
+        <div class="container">
+            <div class="row bakeryContact bg-baseColor px-5 align-items-center">
+                <div class="col-lg-6 col-md-12  pt-3">
+                    <h2 class="fw-bold text-white special-font">The Best Bakery In Your City</p>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div
+                        class="products-contact  d-flex   justify-content-lg-end justify-content-md-start align-items-center">
+                        <i class="fa-solid fa-phone text-white  fa-5x"></i>
+                        <div class="contact   mt-3 ms-3">
+                            <span class="text-white fw-bold">Call Us</span>
+                            <p class="text-white fa-2x fw-semibold">+010 96688707</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row justify-content-center my-5 pt-5">
+                <div class="col-lg-5">
+                    <p class="text-baseColor text-center">// BAKERY PRODUCTS</p>
+                    <h2 class="special-font text-center ">Explore The Categories Of Our Bakery Products</h2>
+                </div>
+
+            </div>
+            <div class="row gy-3 flex-wrap pb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 rounded-2 ">
+
+                        <div class="card-header position-relative d-flex flex-column align-items-center">
+                            <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-baseColor opacity-0">
+                            </div>
+                            <button class="btn btn-outline-warning btn-sm rounded-pill w-50  mt-4">
+                                $11 - $99
+                            </button>
+                            <p class="card-text text-center special-font fw-bold fa-2x mt-3">Cake</p>
+                            <p class="text-center px-2">Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet
+                                diam et eos</p>
+                        </div>
+
+                        <div class="card-body p-0 position-relative">
+                            <div
+                                class="overlay  position-absolute top-0 w-100 h-100 bg-black bg-opacity-50 d-flex justify-content-center align-items-center">
+                                <i
+                                    class="fa-solid fa-eye text-baseColor border border-1 border-white p-3 rounded-circle"></i>
+                            </div>
+                            <img src="./images/products/product-1.jpg" class="img-fluid w-100">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 rounded-2 ">
+
+                        <div class="card-header position-relative d-flex flex-column align-items-center">
+                            <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-baseColor opacity-0">
+                            </div>
+                            <button class="btn btn-outline-warning btn-sm rounded-pill w-50  mt-4">
+                                $11 - $99
+                            </button>
+                            <p class="card-text text-center special-font fw-bold fa-2x mt-3">Bread</p>
+                            <p class="text-center px-2">Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet
+                                diam et eos</p>
+                        </div>
+
+                        <div class="card-body p-0 position-relative">
+                            <div
+                                class="overlay  position-absolute top-0 w-100 h-100 bg-black bg-opacity-50 d-flex justify-content-center align-items-center">
+                                <i
+                                    class="fa-solid fa-eye text-baseColor border border-1 border-white p-3 rounded-circle"></i>
+                            </div>
+                            <img src="./images/products/product-2.jpg" class="img-fluid w-100">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 rounded-2 ">
+
+                        <div class="card-header position-relative d-flex flex-column align-items-center">
+                            <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-baseColor opacity-0">
+                            </div>
+                            <button class="btn btn-outline-warning btn-sm rounded-pill w-50  mt-4">
+                                $11 - $99
+                            </button>
+                            <p class="card-text text-center special-font fw-bold fa-2x mt-3">Cookies</p>
+                            <p class="text-center px-2">Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet
+                                diam et eos</p>
+                        </div>
+
+                        <div class="card-body p-0 position-relative">
+                            <div
+                                class="overlay  position-absolute top-0 w-100 h-100 bg-black bg-opacity-50 d-flex justify-content-center align-items-center">
+                                <i
+                                    class="fa-solid fa-eye text-baseColor border border-1 border-white p-3 rounded-circle"></i>
+                            </div>
+                            <img src="./images/products/product-3.jpg" class="img-fluid w-100">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- start services -->
+    <section id="services" class="pt-5">
+        <div class="container">
+            <div class="row  py-5 h-100 ">
+                <!-- services content -->
+                <div class="col-xl-6 col-lg-12 about-content mb-4">
+                    <p class="fw-semibold text-baseColor">// OUR SERVICES</p>
+                    <h2 class="my-2 special-font">What Do We Offer For You?</h2>
+                    <p class="my-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+
+                    <div class="row my-4 gy-3 pe-0">
+                        <div class="col-md-6 col-sm-12 ">
+                            <i class="fa-solid fa-bread-slice text-white bg-baseColor p-2 rounded-circle me-2"></i>
+                            <span class="special-font fs-5">Quality Products</span>
+                            <p class="my-3">Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa-solid fa-cake-candles text-white bg-baseColor p-2 rounded-circle me-2"></i>
+                            <span class="special-font fs-5">Custom Products</span>
+                            <p class="my-3">Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</p>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa-solid fa-cart-plus text-white bg-baseColor p-2 rounded-circle me-2"></i>
+                            <span class="special-font fs-5"> Online Order</span>
+                            <p class="my-3">Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</p>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa-solid fa-truck text-white bg-baseColor p-2 rounded-circle me-2"></i>
+                            <span class="special-font fs-5"> Home Delivery</span>
+                            <p class="my-3">Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</p>
+
+                        </div>
+                    </div>
+                    <button class=" bg-baseColor border-0  text-white fs-6 fw-semibold px-5  py-3 rounded-pill">Read
+                        More</button>
+                </div>
+                <!-- services images -->
+                <div class="col-xl-6 col-lg-12  ">
+                    <div class="imgsContainer  d-flex position-relative ">
+                        <div class="leftImg position-absolute">
+                            <img src="./images/services/service-1.jpg" class="  w-100 h-100 rounded-2">
+                        </div>
+                        <div class="rightImg position-absolute ">
+                            <img src="./images/services/service-2.jpg" class=" w-100 h-100 rounded-2">
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- start team -->
+    <section id="team" class="team py-5">
+        <div class="container">
+            <div class="teamHeader mb-5">
+
+                <p class=" text-baseColor text-center fw-semibold">// OUR TEAM</p>
+                <h2 class="text-center fw-bolder fs-lg-1 special-font ">We're Super Professional At Our Skills</h2>
+            </div>
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 rounded-2 ">
+                        <img src="./images/team/team-1.jpg" class="img-fluid" />
+                        <div class="card-body position-relative p-0">
+                            <div
+                                class="overlay d-flex justify-content-center align-items-center bg-baseColor position-absolute top-0 start-0 w-100 h-100">
+                                <i class="fa-brands fa-facebook-f bg-white rounded-circle p-2 "></i>
+                                <i class="fa-brands fa-twitter bg-white rounded-circle p-2 mx-2"></i>
+                                <i class="fa-brands fa-instagram bg-white rounded-circle p-2 "></i>
+                            </div>
+                            <div class="member-info ">
+                                <p class="card-text text-center fs-4 fw-bold special-font">Full Name</p>
+                                <p class="text-center ">Ahmed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 rounded-2">
+                        <img src="./images/team/team-2.jpg" class="img-fluid" />
+                        <div class="card-body position-relative p-0">
+                            <div
+                                class="overlay d-flex justify-content-center align-items-center bg-baseColor position-absolute top-0 start-0 w-100 h-100">
+                                <i class="fa-brands fa-facebook-f bg-white rounded-circle p-2 "></i>
+                                <i class="fa-brands fa-twitter bg-white rounded-circle p-2 mx-2"></i>
+                                <i class="fa-brands fa-instagram bg-white rounded-circle p-2 "></i>
+                            </div>
+                            <div class="member-info ">
+                                <p class="card-text text-center fs-4 fw-bold special-font">Full Name</p>
+                                <p class="text-center ">Mohamed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 rounded-2 ">
+                        <img src="./images/team/team-3.jpg" class="img-fluid" />
+                        <div class="card-body position-relative p-0">
+                            <div
+                                class="overlay d-flex justify-content-center align-items-center bg-baseColor position-absolute top-0 start-0 w-100 h-100">
+                                <i class="fa-brands fa-facebook-f bg-white rounded-circle p-2 "></i>
+                                <i class="fa-brands fa-twitter bg-white rounded-circle p-2 mx-2"></i>
+                                <i class="fa-brands fa-instagram bg-white rounded-circle p-2 "></i>
+                            </div>
+                            <div class="member-info ">
+                                <p class="card-text text-center fs-4 fw-bold special-font">Full Name</p>
+                                <p class="text-center ">Hamza</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 rounded-2 ">
+                        <img src="./images/team/team-4.jpg" class="img-fluid" />
+                        <div class="card-body position-relative p-0">
+                            <div
+                                class="overlay d-flex justify-content-center align-items-center bg-baseColor position-absolute top-0 start-0 w-100 h-100">
+                                <i class="fa-brands fa-facebook-f bg-white rounded-circle p-2 "></i>
+                                <i class="fa-brands fa-twitter bg-white rounded-circle p-2 mx-2"></i>
+                                <i class="fa-brands fa-instagram bg-white rounded-circle p-2 "></i>
+                            </div>
+                            <div class="member-info ">
+                                <p class="card-text text-center fs-4 fw-bold special-font">Full Name</p>
+                                <p class="text-center ">ALi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start clients review section -->
+    <section id="reviews" class="container my-5 pt-5">
+
+        <div class="clientsHeader pb-5">
+
+            <p class=" text-baseColor text-center fw-semibold">// CLIENT'S REVIEW</p>
+            <h2 class="text-center fw-bolder fs-lg-1 special-font ">More Than 20000+ Customers Trusted Us</h2>
+        </div>
+
+        <div class="slider  mt-5">
+            <div class="owl-carousel owl-theme">
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-4.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-1.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-2.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-3.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-4.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-1.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-2.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-3.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-4.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-1.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+                <div class="item px-3 py-2">
+                    <div class="client-info d-flex">
+                        <div
+                            class="client-img  border border-1 border-white rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <img src="images/clients/testimonial-2.jpg" class=" rounded-circle img-fluid" />
+                        </div>
+                        <div class="client-name ms-4 ">
+                            <p class="special-font fs-5 my-0">Client Name</p>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                    <div class="client-review">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row  gy-2 justify-content-between bg-baseColor rounded-2 align-items-center py-5 mt-5 px-3">
+            <div class="col-md-4">
+                <h2 class="special-font lh-3 ps-1 text-white ">Subscribe Our Newsletter</h2>
+            </div>
+            <div class="col-md-6">
+
+                <div class="send-email d-flex border border-1 border-white rounded-3 px-3 py-2">
+                    <input type="email" class=" form-control text-white border-0 shadow-none  bg-transparent"
+                        placeholder="email" />
+                    <button class="btn btn-dark ms-2">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="contact" class="container-fluid py-5">
+        <div class="container">
+            <div class="row justify-content-around gy-5">
+                <div class="col-md-3">
+                    <div class="address-info text-white">
+                        <h3 class=" special-font mb-4 ">Office Address</h3>
+                        <ul class="list-unstyled">
+                            <li  class="my-2">
+                                <i class="fa-solid fa-location-dot me-2"></i>
+                                <span>123 Street, New York, USA</span>
+                            </li>
+                            <li class="my-2">
+                                <i class="fa-solid fa-phone me-2"></i>
+                                <span>+0109688707</span>
+                            </li>
+                            <li class="my-2">
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                <span>info@example.com</span>
+                            </li>
+                        </ul>
+                        <div class="d-flex gap-2 align-items-center">
+                        <i class="fa-brands fa-facebook-f text-white border border-1  rounded-circle p-2 "></i>
+                        <i class="fa-brands fa-twitter text-white border border-1  rounded-circle p-2"></i>
+                        <i class="fa-brands fa-linkedin text-white border border-1  rounded-circle p-2 "></i>
+                        <i class="fa-brands fa-youtube text-white border border-1  rounded-circle p-2 "></i>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="quick-links">
+                        <h3 class=" special-font text-white mb-4">Quick Links</h3>
+                        <ul class="list-unstyled text-white ">
+                            <li><a class="text-decoration-none text-white" href="#about">About Us</a></li>
+                            <li><a class="text-decoration-none text-white" href="#products">Products</a></li>
+                            <li><a class="text-decoration-none text-white" href="#services">Services</a></li>
+                            <li><a class="text-decoration-none text-white" href="#reviews">Client Reviews</a></li>
+                            <li><a class="text-decoration-none text-white" href="#contact">Contact Us</a></li>
+                            <li><a class="text-decoration-none text-white" href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h2 class="text-white special-font mb-4">
+                        Photo Gallery</h2>
+                    <div class="row gy-3">
+                      <div class="col-4">
+                        <img src="images/products/product-1.jpg" class="border border-2 rounded-3 img-fluid"/>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/products/product-2.jpg" class="border border-2 rounded-3 img-fluid"/>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/products/product-3.jpg" class="border border-2 rounded-3 img-fluid"/>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/products/product-2.jpg" class="border border-2 rounded-3 img-fluid"/>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/products/product-3.jpg" class="border border-2 rounded-3 img-fluid"/>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/products/product-1.jpg" class="border border-2 rounded-3 img-fluid"/>
+                    </div>
+                      
+                      
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/mine.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

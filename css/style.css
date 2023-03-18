@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.special-font {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.bg-baseColor {
+    background-color: #EAA636;
+}
+
+.text-baseColor {
+    color: #EAA636 !important;
+}
+
+
+.carousel-item h1 {
+    font-size: 6.5vw;
+}
+
+.products .bakeryContact h2 {
+    font-size: 4.5vw;
+
+}
+
+nav ul>.dropdown i {
+    font-size: 10px;
+}
+
+nav {
+    transition: background 0.2s;
+}
+
+.navbar-nav li>a:hover {
+    color: #EAA636 !important;
+}
+
+nav.scrolled {
+    background: #0a0a0a;
+}
+
+/* Start home */
+
+.tringle {
+    width: 115px;
+    height: 110px;
+    clip-path: polygon(49% 15%, 0 71%, 100% 71%);
+    left: 46%;
+    bottom: -33px;
+}
+
+#carouselExample {
+    height: 100vh !important;
+
+}
+
+.about .card,
+.products,
+.team .card,
+#reviews {
+    background-color: rgb(251, 242, 231) !important;
+}
+
+.navbar-toggler-icon {
+    color: aliceblue !important;
+}
+
+/* about section */
+.about .card {
+    transition: 0.5s;
+}
+
+.about .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 6px 1px #ddd;
+    background-color: #fff !important;
+}
+
+.imgsContainer {
+    height: 80vh;
+}
+
+.imgsContainer .leftImg,
+.imgsContainer .rightImg {
+    width: 16rem;
+    height: 23rem;
+}
+
+
+.imgsContainer::before {
+    position: absolute;
+    content: "";
+    right: 50%;
+    transform: translateX(50%);
+    top: 5%;
+    z-index: -1;
+    width: 21rem;
+    border: 20px solid rgb(250, 238, 223);
+    height: 22rem;
+    background-color: #EAA636;
+}
+
+.imgsContainer .leftImg {
+    top: -12%;
+    left: 10%;
+}
+
+.imgsContainer .rightImg {
+    top: 19%;
+    right: 3%;
+
+}
+
+/* products */
+.products .card .card-body>.overlay {
+    transform-origin: top;
+    transition: 0.5s;
+    transform: scaleY(0);
+}
+
+.products .card .card-header>.overlay {
+    transition: 0.7s;
+}
+
+.products .card:hover .card-body>.overlay {
+    transform: scaleY(1);
+}
+
+.products .card:hover .card-header>.overlay {
+    opacity: 1 !important;
+}
+
+/* team */
+
+.team .card .card-body>.overlay {
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 0.5s;
+}
+
+.team .card:hover .card-body>.overlay {
+    transform: scaleY(1);
+}
+
+.team .card .card-body>.member-info {
+    transition: transform 0.3s;
+    transform-origin: bottom;
+
+}
+
+.team .card:hover .card-body>.member-info {
+
+    transform: translateY(-67px) rotateX(90deg);
+
+}
+
+/* owl carasoul */
+.owl-item
+{
+    border-radius: 6px;
+    box-shadow:inset 0px -2px 4px 0px #EAA636;
+    background-color: #fff;
+}
+.client-img
+{
+    width: 60px;
+    height: 60px;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+footer
+{
+    background-color: #1E1916 ;
+}
+.quick-links>ul>li
+{
+    position: relative;
+    padding-left: 25px;
+    transition: transform 0.5s;
+    transform-origin: left;
+}
+.quick-links>ul>li::before
+{
+    position: absolute;
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    left: 0px;
+}
+.quick-links>ul>li:hover
+{
+    transform: scaleX(1.1);
+}
+.quick-links>ul>li>a:hover 
+{
+    color: #EAA636 !important;
+}
+.address-info i
+{
+
+    transition: 0.5s;
+}
+.address-info i:hover
+{
+    background-color: #fff;
+    color: #0a0a0a !important;
+    cursor: pointer;
+}
+/* media queries */
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .imgsContainer .leftImg {
+
+        left: 20%;
+    }
+
+    .imgsContainer .rightImg {
+        top: 19%;
+        right: 20%;
+    }
+
+}
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .imgsContainer .leftImg {
+
+        left: -6%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .contactLi {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top: 0;
+    }
+
+    .navbar-nav {
+        margin-bottom: 0px;
+    }
+
+    .navbar-nav>li {
+        padding-left: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+
+    }
+
+    .navbar-nav>li:hover {
+        border-bottom: solid 1px #ffcc00;
+    }
+
+    /* about section */
+
+    .imgsContainer::before {
+        height: 20rem;
+    }
+
+    .imgsContainer .leftImg,
+    .imgsContainer .rightImg {
+        top: 2%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .imgsContainer .leftImg,
+    .imgsContainer .rightImg {
+        width: 12rem;
+        top: 2%;
+    }
+
+    .imgsContainer::before {
+        height: 20rem;
+    }
+
+
+
+}
